@@ -72,3 +72,26 @@ font-weight: 300;
 font-size: 16px;
 letter-spacing: 0.2em;
 }
+
+.service-title {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+letter-spacing: 0.1em;
+}
+
+p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0.04em;
+}
+
+/* Projects */
+
+#projects {
+  margin: 16rem 0;
+}
