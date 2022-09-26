@@ -52,7 +52,7 @@ font-weight: 300;
 font-size: 7.25rem;
 line-height: 93%;
 text-align: center;
-margin: 16rem 0;
+margin: 20rem 0;
 }
 
 .gradient-text {
@@ -93,5 +93,14 @@ letter-spacing: 0.04em;
 /* Projects */
 
 #projects {
-  margin: 16rem 0;
+  margin: 20rem 0;
+}
+
+.section-heading {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0.04em;
 }
