@@ -1,0 +1,70 @@
+
+:root {
+font-size: 16px;
+}
+
+body {
+  margin: 2.5rem 6.25rem;
+  background-color: #F8F8F8;
+}
+
+/* Title */
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-family: 'Courgette', cursive;
+}
+
+.title {
+  margin: 8.75rem 0;
+  align-items: center;
+}
+
+.row {
+
+}
+
+.text-heading {
+}
+
+.img-col {
+  text-align: right;
+}
+
+.profile-img {
+  width: 304px;
+}
+
+/* Text */
+
+.text {
+  font-family: 'Rubik';
+font-weight: 300;
+font-size: 7.25rem;
+line-height: 93%;
+text-align: center;
+margin: 16rem 0;
+}
+
+.gradient-text {
+  background: linear-gradient(90.13deg, #EED4A1 8.92%, #D2BB8F 48.59%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
