@@ -95,6 +95,9 @@ letter-spacing: 0.04em;
 #projects {
   margin: 20rem 0;
 }
+.projects {
+  margin-bottom: 80px;
+}
 
 .section-heading {
   font-family: 'Rubik';
@@ -102,5 +105,73 @@ font-style: normal;
 font-weight: 300;
 font-size: 60px;
 line-height: 100%;
+letter-spacing: 0.04em;
+padding-bottom: 60px;
+}
+
+.card-title {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0.04em;
+padding-bottom: 12px;
+}
+
+.card-text {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 140%;
+}
+
+.card-body {
+  padding: 20px 0;
+}
+
+.btn {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0.12em;
+padding: 16px 40px;
+border-radius: 506px;
+}
+
+/* Call to action */
+
+#cta {
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0.04em;
+padding: 40px 0;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  margin: 100px 0;
+}
+
+a {
+  padding: 0 10px;
+  color: #5E5C62;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
 letter-spacing: 0.04em;
 }
