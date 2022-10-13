@@ -4,7 +4,6 @@ body {
   color: #212121;
 }
 
-/* Title */
 h1 {
   font-size: 3rem;
   font-family: 'Rubik', sans-serif;
@@ -24,7 +23,6 @@ h2 {
   font-size: 24px;
   line-height: 160%;
 }
-
 
 .image {
   width: 477px;
@@ -63,7 +61,6 @@ h2 {
   top: 30rem;
 }
 
-/* Text */
 .text {
   font-family: 'Rubik';
   font-weight: 300;
@@ -84,7 +81,6 @@ h2 {
   text-fill-color: transparent;
 }
 
-/* Services */
 #services {
   margin: 20rem 0;
 }
@@ -114,7 +110,6 @@ p {
   letter-spacing: 0.04em;
 }
 
-/* Projects */
 #projects {
   margin: 10rem 0;
 }
@@ -174,7 +169,6 @@ p {
   border-radius: 506px;
 }
 
-/* Call to action */
 #cta {
   text-align: center;
 }
@@ -189,7 +183,6 @@ p {
   padding: 40px 0;
 }
 
-/* Footer */
 #footer {
   text-align: center;
   margin: 100px 0;
@@ -205,4 +198,17 @@ a {
   line-height: 140%;
   letter-spacing: 0.04em;
   display: inline-block;
+}
+
+.contact-img {
+  width: 100px;
+}
+
+.contact-info {
+  padding-top: 40px;
+}
+
+.contact-link {
+  display: block;
+  padding-top: 16px;
 }
