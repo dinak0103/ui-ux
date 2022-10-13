@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UI/UX Designer • Software Engineer</title>
 
   <!-- Google Fonts -->
@@ -19,46 +20,52 @@
 
   <!-- Bootstrap Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
 
   <section id="title">
 
-    <div class="container-fluid">
-
-      <!-- Nav Bar -->
-
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Kantsevich</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link" href="#">Work</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Contact</a>
-            </div>
-          </div>
-        </div>
-      </nav>
 
 
-      <!-- Title -->
+    <!-- Nav Bar -->
 
-      <div class="container">
-        <div class="row title">
-          <div class="col text-heading">
-            <h1>I am <span class="name">Dziyana Kantsevich</span></h1>
-            <h2>UI/UX Designer, front-end developer</h2>
-          </div>
-          <div class="col img-col">
-            <img class="profile-img" src="img/profile_img.png" alt="profile-img">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Kantsevich</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="work.html">Work</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
+    </nav>
+
+
+    <!-- Title -->
+    <div class="container-fluid">
+
+      <div class="container row title">
+
+        <div class="col text-heading">
+          <h1>I am <span class="name">Dziyana Kantsevich</span></h1>
+          <h2>UI/UX Designer, front-end developer</h2>
+        </div>
+
+        <div class="col img-col">
+          <img class="profile-img" src="img/profile_img.png" alt="profile-img">
+        </div>
+
+      </div>
+
+      <img class="sign-img" src="img/sign.png" alt="sign-img">
 
     </div>
 
@@ -75,20 +82,22 @@
   <!-- Services -->
 
   <section id="services">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="service-box col-lg-4">
-          <h5>SERVICES</h5>
-        </div>
-        <div class="service-box col-lg-4">
-          <h3 class="service-title">UI/UX Design</h3>
-          <p>I deliver strong and user-friendly digital designs. I help to create websites and apps that solve business problems and are understandable for users.</p>
-        </div>
-        <div class="service-box col-lg-4">
-          <h3 class="service-title">Web Development</h3>
-          <p>I build scalable websites from scratch that fit seamlessly with design. Programming languages I use: HTML, CSS, JavaScript, Bootstrap, Reat, jQuery.</p>
-        </div>
+    <div class="container-fluid row">
+
+      <div class="service-box col-lg-4">
+        <h5>SERVICES</h5>
       </div>
+
+      <div class="service-box col-lg-4">
+        <h4 class="service-title">UI/UX Design</h4>
+        <p>I deliver strong and user-friendly digital designs. I help to create websites and apps that solve business problems and are understandable for users.</p>
+      </div>
+
+      <div class="service-box col-lg-4">
+        <h4 class="service-title">Web Development</h4>
+        <p>I build scalable websites from scratch that fit seamlessly with design. Programming languages I use: HTML, CSS, JavaScript, Bootstrap, jQuery.</p>
+      </div>
+
     </div>
   </section>
 
@@ -97,48 +106,54 @@
 
   <section id="projects">
 
-    <div class="container-fluid">
+    <h2 class="section-heading">Selected Projects</h2>
 
-      <h2 class="section-heading">Selected Projects</h2>
+    <div class="container-fluid projects row">
 
 
-      <div class="projects row">
-        <div class="project-card col-lg-6">
-          <img src="img/app.jpg" class="card-img-top" alt="app-img">
-          <div class="card-body">
-            <h5 class="card-title">Shopping app</h5>
-            <p class="card-text">UI/UX app design</p>
-          </div>
-        </div>
-
-        <div class="project-card col-lg-6">
-          <img src="img/nft.jpg" class="card-img-top" alt="nft-img">
-          <div class="card-body">
-            <h5 class="card-title">Landing page</h5>
-            <p class="card-text">Web design</p>
-          </div>
-        </div>
-
-        <div class="project-card col-lg-6">
-          <img src="img/nextsolution.jpg" class="card-img-top" alt="nft-img">
-          <div class="card-body">
-            <h5 class="card-title">Digital Agency Website</h5>
-            <p class="card-text">Web design</p>
-          </div>
-        </div>
-
-        <div class="project-card col-lg-6">
-          <img src="img/hydropool.jpg" class="card-img-top" alt="nft-img">
-          <div class="card-body">
-            <h5 class="card-title">E-commerce Website</h5>
-            <p class="card-text">Web design</p>
-          </div>
+      <div class="project-card col-lg-6">
+        <img src="img/app.jpg" class="card-img-top" alt="app-img">
+        <div class="card-body">
+          <h5 class="card-title">Shopping app</h5>
+          <p class="card-text">UI/UX app design</p>
         </div>
       </div>
-      <div class="d-grid gap-2 col-2 mx-auto">
-        <button class="btn btn-outline-dark" type="button" name="button">VIEW ALL</button>
+
+
+
+      <div class="project-card col-lg-6">
+        <img src="img/nft.jpg" class="card-img-top" alt="nft-img">
+        <div class="card-body">
+          <h5 class="card-title">Landing page</h5>
+          <p class="card-text">Web design</p>
+        </div>
+      </div>
+
+
+
+      <div class="project-card col-lg-6">
+        <img src="img/nextsolution.jpg" class="card-img-top" alt="nft-img">
+        <div class="card-body">
+          <h5 class="card-title">Digital Agency Website</h5>
+          <p class="card-text">Web design</p>
+        </div>
+      </div>
+
+
+
+      <div class="project-card col-lg-6">
+        <img src="img/hydropool.jpg" class="card-img-top" alt="nft-img">
+        <div class="card-body">
+          <h5 class="card-title">E-commerce Website</h5>
+          <p class="card-text">Web design</p>
+        </div>
       </div>
     </div>
+
+    <div class="d-grid gap-2 col-2 mx-auto">
+      <a class="btn btn-outline-dark" href="work.html" role="button">VIEW ALL</a>
+    </div>
+
   </section>
 
 
@@ -149,8 +164,8 @@
     <div class="container-fluid">
       <p>Do you like my work?</p>
       <h2 class="cta-heading">Let’s work together!</h2>
-      <button class="btn btn-outline-dark" type="button" name="button">dziyanakantsevich@gmail.com</button>
-      <button class="btn btn-outline-dark" type="button" name="button">+ 375 33 642 74 53</button>
+      <a class="btn btn-outline-dark" href="mailto:dziyanakantsevich@gmail.com" role="button">dziyanakantsevich@gmail.com</a>
+      <a class="btn btn-outline-dark" href="https://t.me/dinak3" role="button">+ 375 33 642 74 53</a>
     </div>
   </section>
 
@@ -159,10 +174,10 @@
   <!-- Footer -->
 
   <footer id="footer">
-      <a href="#">Instagram</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Telegram</a>
-      <a href="#">WhatsApp</a>
+    <a href="https://www.instagram.com/dinakontsevich/" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/dinakontsevich/" target="_blank">LinkedIn</a>
+    <a href="https://t.me/dinak3" target="_blank">Telegram</a>
+    <a href="https://api.whatsapp.com/send?phone=375336427453" target="_blank">WhatsApp</a>
   </footer>
 
 
