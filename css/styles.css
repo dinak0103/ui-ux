@@ -17,7 +17,19 @@ h2 {
   font-weight: 300;
 }
 
+.large-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+}
 
+
+.image {
+  width: 477px;
+  height: 624px;
+}
 
 .name {
   font-weight: 500;
@@ -110,7 +122,6 @@ p {
 .projects {
   margin-bottom: 80px;
 }
-
 
 .project-card {
   transition: all 1s;
