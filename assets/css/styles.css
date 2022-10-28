@@ -17,7 +17,6 @@
   --link-hover-color: rgba(255, 255, 255, .2);
   --title-font-family: 'Playfair Display', 'serif';
   --body-font-family: 'Poppins', 'sans-serif';
-  --container-width: 96rem;
   --container-padding: 1.5rem;
   --section-vertical-spacing: 8rem;
 }
@@ -78,7 +77,7 @@ textarea {
 
 /* !REUSABLE CLASSES */
 .container {
-  max-width: var(--container-width);
+  max-width: 54rem;
   margin: 0 auto;
   padding: 0 var(--container-padding);
 }
@@ -614,6 +613,10 @@ textarea {
 
 /* !MEDIA QUERIES */
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 96rem;
+  }
+
   .section-description {
     grid-template-columns: 1.5fr 1fr;
     align-items: center;
@@ -629,6 +632,45 @@ textarea {
   }
 
   .portfolio-cards {
-    
+    grid-template-columns: repeat(8, 1fr);
+    gap: 2.5rem;
+  }
+
+  .portfolio-card-1 {
+    grid-column: 1/6;
+    grid-row: 1/span 10;
+  }
+
+  .portfolio-card-2 {
+    grid-column: 6/-1;
+    grid-row: 2/span 10;
+  }
+
+  .portfolio-card-3 {
+    grid-column: 1/5;
+    grid-row: 11/span 10;
+  }
+
+  .portfolio-card-4 {
+    grid-column: 5/-1;
+    grid-row: 12/span 10;
+  }
+
+  .portfolio-card-5 {
+    grid-column: 1/4;
+    grid-row: 21/span 10;
+  }
+
+  .input-group {
+    display: flex;
+    column-gap: 5rem;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .footer-container {
+    padding: 5rem;
   }
 }
